@@ -90,6 +90,26 @@ font-weight: bold;
 color: #005a8d;
 }
 
+@media screen and (max-width: 768px) {
+  nav {
+    display: block;
+    margin-bottom: 1em;
+  }
+
+  nav li {
+    display: inline-block;
+    margin: 0.5em 0;
+  }
+
+  main {
+    padding: 0.5em;
+  }
+
+  .product {
+    flex-basis: calc(50% - 1em);
+  }
+}
+
 /* Estilos del footer */
 
 footer {
