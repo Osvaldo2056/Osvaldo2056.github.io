@@ -1,0 +1,99 @@
+/* Estilos generales */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  /*header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+  }*/
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #333;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  nav a {
+    color: #fff;
+    font-size: 1.2rem;
+    text-decoration: none;
+    padding: 0.5rem;
+    margin: 0 0.5rem;
+    border-radius: 5px;
+  }
+  
+  nav a:hover {
+    background-color: #fff;
+    color: #333;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  nav .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    text-transform: uppercase;
+  }
+  
+    
+    main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2em;
+    }
+    
+    .products {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.product {
+    background-color: white;
+	border: 1px solid #ccc;
+	box-shadow: 2px 2px 6px rgba(0,0,0,0.3);
+	flex-basis: calc(33.33% - 1em);
+	margin: 0.5em;
+	padding: 1em;
+	text-align: center;
+}
+
+.product img {
+width: 100%;
+height: auto;
+margin-bottom: 1em;
+}
+
+.product h2 {
+font-size: 1.5em;
+margin-bottom: 0.5em;
+}
+
+.product p {
+margin-bottom: 1em;
+}
+
+.price {
+font-size: 1.25em;
+font-weight: bold;
+color: #005a8d;
+}
+
+/* Estilos del footer */
+
+footer {
+background-color: #ddd;
+padding: 1em;
+text-align: center;
+}
